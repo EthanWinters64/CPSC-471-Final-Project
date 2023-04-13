@@ -1,0 +1,352 @@
+.homePage-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.homePage-page {
+    width: 100%;
+    height: 1117px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    justify-content: center;
+    background-color: rgba(23, 38, 77, 1);
+}
+.homePage-waves-background {
+    top: 550px;
+    left: 0px;
+    position: absolute;
+}
+.parkshark-logo-text {
+    top: 76px;
+    left: 178px;
+    color: rgba(255, 255, 255, 1);
+    width: 453px;
+    height: auto;
+    position: absolute;
+    font-size: 62.43959426879883px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.parkshark-logo {
+    top: 76px;
+    left: 80px;
+    position: absolute;
+}
+
+.homePage-logout-button {
+    top: 75px;
+    right: 102px;
+    width: 190px;
+    height: 75px;
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-family: Source Sans Pro;
+    border-style: hidden;
+    border-radius: 16px;
+    flex-direction: row;
+}
+.homePage-logout-button-arrow {
+    top: 28px;
+    left: 23px;
+    width: 23px;
+    height: 22px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+.homePage-logout-button-text {
+    font-size: 35px;
+    position: absolute;
+    right: 27px;
+    top: 17px;
+    font-weight: 400;
+}
+
+.homePage-whereto-message {  /*this is the Welcome msg */
+    top: 300px;
+    left: 39%;
+    color: #FFFFFF;
+    width: 489px;
+    height: auto;
+    position: absolute;
+    font-size: 71.60655975341797px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+
+.homePage-parkinglot-button {
+    top: 430px;
+    left: 33.5%;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+
+.homePage-parkinglot-button-text {
+    top: 30px;
+    left: 225px;
+    color: #18274E;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    font-size: 27.606220245361328px;
+    align-self: auto;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.homePage-ticket-button {
+    top: 580px;
+    left: 33.5%;;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+
+.homePage-ticket-button-text {
+    top: 30px;
+    left: 225px;
+    color: #18274E;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    font-size: 27.606220245361328px;
+    align-self: auto;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.homePage-vehicle-button {
+    top: 730px;
+    left: 33.5%;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+
+.homePage-vehicle-button-text {
+    top: 30px;
+    left: 225px;
+    color: #18274E;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    font-size: 27.606220245361328px;
+    align-self: auto;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+/* mobile compatability for displays with width under 414px */
+
+@media(max-width: 414px) {
+    .homePage-page {
+        height: 844px;
+    }
+  
+    .homePage-waves-background {
+        top: 600px;
+        width: 600px;
+        left: -110px;
+        position: absolute;
+    }
+    .parkshark-logo-text {
+        display: none;
+    }
+    .parkshark-logo {
+        top: 750px;
+        left: 172px;
+        position: absolute;
+        width: 50px;
+    }
+    .homePage-logout-button {
+        top: 30px;
+        right: 30px;
+        width: 150px;
+        height: 55px;
+        display: flex;
+        position: absolute;
+        font-size: 20px;
+        font-family: Source Sans Pro;
+        border-style: hidden;
+        border-radius: 16px;
+        flex-direction: row;
+    }
+    .homePage-logout-button-arrow {
+        top: 18px;
+        left: 15px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        transform: rotate(180deg);
+    }
+    .homePage-logout-button-text {
+        font-size: 28px;
+        position: absolute;
+        right: 23px;
+        top: 12px;
+        font-weight: 400;
+    }
+
+    .homePage-whereto-message {
+        top: 140px;
+        left: 100px;
+        color: rgba(255, 255, 255, 1);
+        width: 414px;
+        height: auto;
+        position: absolute;
+        font-size: 45px;
+        align-self: auto;
+        font-style: Regular;
+        text-align: left;
+        font-family: Source Sans Pro;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        margin-right: 0;
+        margin-bottom: 0;
+        text-decoration: none;
+    }
+    
+    .homePage-parkinglot-button {
+        top: 240px;
+        left: 20px;
+        width: 350px;
+        height: 80px;
+        position: absolute;
+        border-color: transparent;
+        border-radius: 40px;
+        background-color: #FFFFFF;
+    }
+    
+    .homePage-parkinglot-button-text {
+        top: 23px;
+        left: 50px;
+        color: #18274E;
+        width: 250px;
+        height: auto;
+        position: absolute;
+        font-size: 23px;
+        align-self: auto;
+        text-align: center;
+        font-family: Source Sans Pro;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        margin-right: 0;
+        margin-bottom: 0;
+        text-decoration: none;
+    }
+    
+    .homePage-ticket-button {
+        top: 360px;
+        left: 20px;
+        width: 350px;
+        height: 80px;
+        position: absolute;
+        border-color: transparent;
+        border-radius: 40px;
+        background-color: #FFFFFF;
+    }
+    
+    .homePage-ticket-button-text {
+        top: 23px;
+        left: 50px;
+        color: #18274E;
+        width: 250px;
+        height: auto;
+        position: absolute;
+        font-size: 23px;
+        align-self: auto;
+        text-align: center;
+        font-family: Source Sans Pro;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        margin-right: 0;
+        margin-bottom: 0;
+        text-decoration: none;
+    }
+    
+    .homePage-vehicle-button {
+        top: 480px;
+        left: 20px;
+        width: 350px;
+        height: 80px;
+        position: absolute;
+        border-color: transparent;
+        border-radius: 40px;
+        background-color: #FFFFFF;
+    }
+    
+    .homePage-vehicle-button-text {
+        top: 23px;
+        left: 50px;
+        color: #18274E;
+        width: 250px;
+        height: auto;
+        position: absolute;
+        font-size: 23px;
+        align-self: auto;
+        text-align: center;
+        font-family: Source Sans Pro;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        margin-right: 0;
+        margin-bottom: 0;
+        text-decoration: none;
+    }
+}
+
